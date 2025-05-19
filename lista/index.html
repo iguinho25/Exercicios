@@ -8,7 +8,16 @@
 </head>
 <body>
   <div class="app">
-    <h1> Lista Diguê?</h1>
+    <h1>Lista Diguê?</h1>
+
+  
+    <div class="nova-tarefa">
+      <input 
+        type="text" 
+        id="input-tarefa" 
+        placeholder="Digite uma nova tarefa e pressione Enter..." 
+      />
+    </div>
 
     <div class="filtros">
       <button onclick="definirFiltro('todas')">Todas</button>
@@ -19,7 +28,6 @@
     <ul id="lista-tarefas"></ul>
   </div>
 
-  <!-- Efeito sonoro -->
   <audio id="somClick" src="setradio https://server1.mtabrasil.com.br/play?id=vx37NHFUqe4" preload="auto"></audio>
 
   <script src="app.js"></script>
